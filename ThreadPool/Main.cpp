@@ -36,6 +36,8 @@ public:
 
 int main()
 	try {
+		std::cout << "test" << std::endl;
+
 		fixed_thread_pool pool2{ 50 };
 		//std::bind()
 		std::function<void()> fun = std::bind(fun1, 2);
